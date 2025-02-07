@@ -27,7 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className=" text-5xl text-white border-b-4 py-5   "> Zinvera IT </nav>
+
         {children}
+
       </body>
     </html>
   );
